@@ -1,56 +1,25 @@
-# Algorithm Visualizer
+# LOGIC FLOW
 
-An interactive web application built with React and Vite that helps users understand how different sorting algorithms work through step-by-step visualizations.
+An interactive web app developed with React and Vite, designed to help users grasp the workings of various sorting algorithms through step-by-step visual animations.
 
 ## Features
 
-- Interactive visualization of popular sorting algorithms:
-  - Bubble Sort
-  - Quick Sort
-  - Merge Sort
-- Step-by-step execution control
-- Adjustable animation speed
-- Configurable array size
-- Real-time code highlighting
-- Responsive design
-
+- Dynamic visual representation of popular sorting algorithms
+- Control execution step by step
+- Customizable array size
+- Live code highlighting
+- Fully responsive design for all devices
 ## Technologies Used
 
-- React 18
+- React
 - Vite
 - Styled Components
 - React Router DOM
 - ESLint
 
-## Getting Started
 
-### Prerequisites
 
-- Node.js (v14 or higher)
-- npm or yarn
 
-### Installation
-
-1. Clone the repository
-
-```bash
-git clone https://github.com/yourusername/algorithm-visualizer.git
-cd algorithm-visualizer
-```
-
-2. Install dependencies
-
-```bash
-npm install
-```
-
-3. Start the development server
-
-```bash
-npm run dev
-```
-
-The application will be available at `http://localhost:5173`
 
 ## Available Scripts
 
@@ -59,24 +28,6 @@ The application will be available at `http://localhost:5173`
 - `npm run lint` - Runs ESLint to check code quality
 - `npm run preview` - Previews the production build locally
 
-## Features in Detail
-
-### Sorting Algorithms
-
-1. **Bubble Sort**
-   - Time Complexity: O(n²)
-   - Space Complexity: O(1)
-   - Simple comparison-based sorting algorithm
-
-2. **Quick Sort**
-   - Time Complexity: O(n log n)
-   - Space Complexity: O(log n)
-   - Efficient divide-and-conquer algorithm
-
-3. **Merge Sort**
-   - Time Complexity: O(n log n)
-   - Space Complexity: O(n)
-   - Stable divide-and-conquer algorithm
 
 ### Visualization Controls
 
@@ -101,21 +52,3 @@ algorithm-visualizer/
 └── index.html         # HTML template
 
 ```
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgments
-
-- Inspired by various algorithm visualization tools
-- Built with React and modern web technologies
-- Uses styled-components for styling
