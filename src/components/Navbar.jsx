@@ -131,7 +131,7 @@ function Navbar() {
   return (
     <Nav>
       <NavContainer>
-        <Logo to="/">Algorithm Visualizer</Logo>
+        <Logo to="/">Logic Flow</Logo>
         <NavLinks>
           <NavLink to="/" className={location.pathname === '/' ? 'active' : ''}>Home</NavLink>
           <NavLink to="/resources" className={location.pathname === '/resources' ? 'active' : ''}>Resources</NavLink>
